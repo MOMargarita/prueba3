@@ -1,0 +1,74 @@
+<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Document</title></head><body>    <script>        /*
+    // Variables numero entero
+    var numero = 25;
+    console.log('numero ', numero, ' typo ', typeof(numero));
+    // Variable nuemero decimal
+    var numero1 = 356.28;
+    // Variable boolean
+    var numero= true;
+    var texto = 'Magno';
+    console.log('numero ', numero, ' typo ', typeof(numero));
+    console.log('numero1 ', numero1, ' typo ', typeof(numero1));
+    //console.log('Resultado ', resultado, ' typo ', typeof(resultado));
+    console.log('Texto ', texto, ' typo ', typeof(texto));
+    var miVariable;
+    console.log("miVariable  " + miVariable);
+    var miVariable = null;
+    console.log("miVariable  " + miVariable);
+    let a = 5;
+    console.log("Var a: " , a , " ", typeof(a));
+    // declarar constante un valor que nunca cambia
+    const PI =  3.141592;
+    var texto = "Hola";
+    var texto = 'hola';
+    // Boolean
+    var resultado = true;
+    var resultado = false;
+    alert("Bienvenido Tripulante");
+    var nombre = prompt("Escriba su nombre:");
+    alert("Nombre: " + nombre);
+    var edad = prompt("Edad ? ");
+    // if condicional
+    if (edad < 0){
+        alert("Edad Errada");
+    }else if(edad < 1){
+        alert("No ha cumplido el año...")
+    }else if(edad<=3){
+        alert("Es un bebé " + edad);
+    }else if(edad > 3 && edad <=12){
+        alert("Es un niño "+ edad);
+    }else if(edad > 12 && edad <18){
+        alert("Es adolescente" + edad);
+    }else if(edad>=18){
+        alert("Es mayor de Edad" + edad);
+    }else{
+        alert("Edad Errada");
+    }
+    */
+    // Condicional Ternario
+    var edad = prompt("Edad ?");
+    edad >= 18 ? alert("Mayor de Edad") : alert("Es menor de Edad"); 
+    //  Ciclo For
+    var numero=" ";
+    for (contador=1; contador < 11;contador = contador+2){
+        numero = numero +  contador + " ";
+    }
+    alert(numero);
+    // Ciclo mientras
+    var contador=1;
+    numero =" ";
+    while(contador < 6){
+        numero = numero + contador + " ";
+        contador++;
+    }
+    alert("valor " + numero);
+    // Ciclo Repetir - al menos lo va a ejecutas una vez
+    numero=" ";
+    contador=1;
+    do{
+        numero = numero + contador +" ";
+        contador++;
+    }while(contador<21);
+    alert("valor " + numero + "<br>" + "Magno ");
+
+</script>
